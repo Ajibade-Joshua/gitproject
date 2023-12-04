@@ -1,46 +1,44 @@
 export const characters = [
   // Iron Man
   {
-    name: "Tony Stark",
-    alias: "Iron Man",
-    img1: "https://www.specfictionshop.com/cdn/shop/products/315455127_2253071438203857_6311282012262232749_n_2000x.jpg?v=1669836598",
-    homeworld: "Earth",
+    name: "Chris Hemsworth",
+    alias: "Thor",
+    img1: "http://oyster.ignimgs.com/wordpress/stg.ign.com/2020/12/173-1730826_thor-ragnarok-wallpaper-marvel-cinematic-universe-thor-ragnarok.jpg",
+    homeworld: "Asgarda",
     abilities: [
-      "Genius-level intellect",
-      "Powered armor suit",
-      "Superhuman strength",
+      "Superhuman strength, agility, durability, control over lightning, and wields the enchanted hammer Mjolnir.",
     ],
     team: "Avengers",
     description:
-      "Tony Stark, also known as Iron Man, is a brilliant inventor, philanthropist, and industrialist. He uses his genius-level intellect and a highly advanced powered armor suit to fight for justice and protect the world from various threats. Stark is a charismatic playboy turned superhero who combines his technological prowess with unwavering determination to uphold the values of heroism and innovation.",
+      "Thor, one of Marvel Comics' most iconic characters, is the God of Thunder and a member of the superhero team, the Avengers.",
   },
   {
-    name: "Pepper Potts",
-    alias: "Rescue",
-    abilities: ["Powered armor suit", "Advanced technology skills"],
+    name: "Natasha Romanoff",
+    alias: "Black Widow",
+    abilities: ["Expert martial artist, marksman, and spy. Utilizes various gadgets and weaponry."],
     team: "Avengers",
-    img1: "https://i.pinimg.com/originals/5e/fe/55/5efe55d2a7785a311511736a1a37bcbb.jpg",
+    img1: "http://oyster.ignimgs.com/wordpress/stg.ign.com/2020/12/ocA7mZJmT97HzvesMjkXKA.jpg",
     homeworld: "Earth",
     description:
       "Pepper Potts, the formidable Rescue, is an accomplished businesswoman and technological genius. She dons a powered armor suit equipped with an array of advanced technology and weaponry, allowing her to stand alongside the Avengers in the battle against supervillains and global threats. Pepper is a determined and fearless heroine with an unwavering commitment to justice.",
   },
   {
-    name: "James 'Rhodey' Rhodes",
-    alias: "War Machine",
-    abilities: ["Powered armor suit", "Military expertise"],
+    name: "King T'Challa",
+    alias: "Black Panther",
+    abilities: ["Superhuman strength, agility, enhanced senses, and expertise in hand-to-hand combat. Wields the vibranium suit."],
     team: "Avengers",
-    img1: "https://i.pinimg.com/474x/ec/3f/4f/ec3f4f8053892365046fc6cd2f7955eb.jpg",
+    img1: "http://oyster.ignimgs.com/wordpress/stg.ign.com/2020/12/Chadwick-Boseman-as-Black-Panther-Featured-Image.jpg",
     homeworld: "Earth",
 
     description:
       "James 'Rhodey' Rhodes, also known as War Machine, is a highly skilled pilot and a military expert. He operates a heavily armed powered armor suit that enhances his strength and combat capabilities. With a strong sense of duty and loyalty to his allies, Rhodey plays a crucial role in the Avengers' efforts to maintain peace and protect the world.",
   },
   {
-    name: "Riri Williams",
-    alias: "Ironheart",
+    name: "Scott Lang",
+    alias: "Ant-Man",
     abilities: ["Powered armor suit", "Genius-level intellect"],
-    team: "Young Avengers",
-    img1: "https://i.pinimg.com/736x/e3/02/9b/e3029b056f1deaf2011d72d0bce0bafa.jpg",
+    team: "Avengers",
+    img1: "http://oyster.ignimgs.com/wordpress/stg.ign.com/2020/12/antman-falcon.jpg",
     homeworld: "Earth",
 
     description:

@@ -1,18 +1,34 @@
+import React, { useState } from "react";
 import "./App.css";
 import { characters } from "./MarvelData";
 
 function App() {
+  const [searchQuery, setSearchQuery] = useState("");
+
+  const filteredCharacters = characters.filter((character) =>
+    character.alias.toLowerCase().includes(searchQuery.toLowerCase())
+  );
+
   return (
     <div className="mainBody">
       <div className="topHeader">
         <h1 className="header">MARVELO</h1>
-        <input placeholder="Search a Marvel Character" className="topInput" />
+        <input
+          placeholder="Search a Marvel Character"
+          className="topInput"
+          value={searchQuery}
+          onChange={(e) => setSearchQuery(e.target.value)}
+        />
       </div>
       <div className="cardBody">
-        {characters.map((data, index) => (
+        {filteredCharacters.map((data, index) => (
           <div key={index} className="card">
             <div className="main">
-              <img className="avatarImage" src={data.img1} alt={data.alias} />
+              <img
+                className="avatarImage"
+                src={data.img1}
+                alt={data.alias}
+              />
               <h2>{data.alias}</h2>
               <p className="description">
                 {data?.abilities[0]}
