@@ -47,47 +47,47 @@ export const characters = [
 
   // Spider-Man
   {
-    name: "Miles Morales",
-    alias: "Spider-Man",
-    abilities: ["Bio-electrokinesis", "Wall-crawling"],
+    name: "Stephen Strange",
+    alias: "Doctor Strange",
+    abilities: ["Master of the mystic arts, skilled sorcerer. Can manipulate magic, time, and reality."],
     team: "Champions",
-    img1: "https://w0.peakpx.com/wallpaper/15/497/HD-wallpaper-marvel-spider-man-marvel-spider-man-game-games.jpg",
+    img1: "https://c4.wallpaperflare.com/wallpaper/823/649/247/doctor-strange-2016-movies-4k-8k-wallpaper-preview.jpg",
     homeworld: "Earth",
     img3: "url_to_img3_for_Natasha_Stark",
     description:
-      "Miles Morales, the teenage Spider-Man, has bio-electrokinesis powers, in addition to wall-crawling abilities. As a member of the Champions, Miles embodies the spirit of the Spider-Man legacy, fighting for equality and justice in the Marvel Universe while navigating the challenges of being a young hero.",
+      "Possesses the Eye of Agamotto.",
   },
 
   {
-    name: "Cindy Moon",
-    alias: "Silk",
-    abilities: ["Web-shooting", "Superhuman agility"],
+    name: "Wade Wilson",
+    alias: "Deadpool",
+    abilities: [" Superhuman healing factor, skilled martial artist, and marksmanship. Known for his humor and breaking the fourth wall."],
     team: "Agents of Atlas",
-    img1: "https://media-cldnry.s-nbcnews.com/image/upload/newscms/2015_53/894026/silk_1_cover.jpg",
+    img1: "https://c4.wallpaperflare.com/wallpaper/945/620/996/dead-pool-artwork-digital-art-digital-painting-fan-art-hd-wallpaper-preview.jpg",
     homeworld: "Earth",
     description:
-      "Cindy Moon, codenamed Silk, is a skilled hero with the power of web-shooting and remarkable superhuman agility. She is an essential member of the Agents of Atlas, using her arachnid-like abilities to combat threats and safeguard the world.",
+      " Superhuman healing factor, skilled martial artist, and marksmanship. Known for his humor and breaking the fourth wall.",
   },
 
   {
-    name: "Steve Rogers",
-    alias: "Captain America",
-    abilities: ["Peak human strength", "Vibranium shield"],
+    name: "Carol Danvers",
+    alias: "Captain Marvel ",
+    abilities: [" Superhuman strength, flight, energy absorption, and the ability to project energy blasts."],
     team: "Avengers",
-    img1: "https://w0.peakpx.com/wallpaper/223/397/HD-wallpaper-captain-america-avengers-endgame-captain-america-marvel-marvel-comics-marvel-superheroes-superheroes.jpg",
+    img1: "https://c4.wallpaperflare.com/wallpaper/325/99/647/captain-marvel-marvel-cinematic-universe-brie-larson-portrait-display-wallpaper-preview.jpg",
     homeworld: "Earth",
     description:
-      "Steve Rogers, Captain America, is the embodiment of honor and virtue. Enhanced with peak human strength and wielding a Vibranium shield, he stands as a symbol of justice and resilience. Steve's unwavering commitment to the ideals of heroism makes him a cornerstone of the Avengers and the Marvel Universe.",
+      "A former Air Force pilot with enhanced Kree-human physiology.",
   },
   {
-    name: "Sam Wilson",
-    alias: "Falcon",
-    abilities: ["Wingsuit", "Telepathic link with birds"],
+    name: "Bruce Banner",
+    alias: "Hulk",
+    abilities: ["Superhuman strength, durability, and regenerative healing factor."],
     team: "Avengers",
-    img1: "https://i.pinimg.com/736x/0e/be/ed/0ebeed0c9d6578732a07ca98fee71e22.jpg",
+    img1: "https://c4.wallpaperflare.com/wallpaper/287/620/954/hulk-avengers-age-of-ultron-the-avengers-wallpaper-preview.jpg",
     homeworld: "Earth",
     description:
-      "Sam Wilson, the Falcon, soars through the skies with his high-tech wingsuit and possesses a unique telepathic link with birds. As an Avenger, Sam exemplifies freedom, hope, and unity, fighting alongside his fellow heroes to maintain peace and protect the world from impending threats.",
+      "His strength increases with his level of anger.",
   },
 ];
 
